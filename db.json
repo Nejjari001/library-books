@@ -1,50 +1,81 @@
 {
-    "books": [
-        { 
-            "id": "1",
-            "author": "Chinua Achebe",
-            "title": "Things Fall Apart",
-            "category": "fantasy",
-            "borrowed": false,
-            "dueDate": ""
-        },
-        {
-            "id": "2",
-            "author": "Hans Christian Andersen",
-            "title": "Fairy tales",
-            "category": "fantasy",
-            "borrowed": false,
-            "dueDate": ""
-        },
-        {
-            "id": "3",
-            "author": "Dante Alighieri",
-            "title": "The Divine Comedy",
-            "category": "Mystery",
-            "borrowed": false,
-            "dueDate": ""
-        },
-        {
-            "id": "4",
-            "author": "Unknown",
-            "title": "The Epic Of Gilgamesh",
-            "category": "Mystery",
-            "borrowed": false,
-            "dueDate": ""
-        },
-        {
-            "id": "5",
-            "author": "Unknown",
-            "title": "The Book Of Job",
-            "category": "Science fiction",
-            "borrowed": false ,
-            "dueDate": ""
-        }
-    ],
-    "users": [
-      { "id": 1, "name": "elmahdi", "email": "test@gmail.com", "password": "adminpass123", "borrowed-books": [], "isAdmin": true },
-      { "id": 2, "name": "mohammed", "email": "test@gmail.com", "password": "pass123", "borrowed-books": [], "isAdmin": false },
-      { "id": 3, "name": "yasine", "email": "test@gmail.com", "password": "pass123", "borrowed-books": [], "isAdmin": false },
-      { "id": 4, "name": "ayoub", "email": "test@gmail.com", "password": "pass123", "borrowed-books": [], "isAdmin": false }
-    ]
-  }
+  "books": [
+    {
+      "id": "1",
+      "author": "Chinua Achebe",
+      "title": "Things Fall Apart",
+      "category": "fantasy",
+      "borrowed": false,
+      "dueDate": ""
+    },
+    {
+      "id": "2",
+      "author": "Hans Christian Andersen",
+      "title": "Fairy tales",
+      "category": "fantasy",
+      "borrowed": false,
+      "dueDate": ""
+    },
+    {
+      "id": "3",
+      "author": "Dante Alighieri",
+      "title": "The Divine Comedy",
+      "category": "Mystery",
+      "borrowed": false,
+      "dueDate": ""
+    },
+    {
+      "id": "4",
+      "author": "Unknown",
+      "title": "The Epic Of Gilgamesh",
+      "category": "Mystery",
+      "borrowed": false,
+      "dueDate": ""
+    },
+    {
+      "id": "5",
+      "author": "Unknown",
+      "title": "The Book Of Job",
+      "category": "Science fiction",
+      "borrowed": false,
+      "dueDate": ""
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "elmahdi",
+      "email": "test@gmail.com",
+      "password": "adminpass123",
+      "borrowedBooks": [],
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "mohammed",
+      "email": "test@gmail.com",
+      "password": "pass123",
+      "borrowedBooks": [],
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "name": "yasine",
+      "email": "test@gmail.com",
+      "password": "pass123",
+      "borrowedBooks": [],
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "name": "ayoub",
+      "email": "test@gmail.com",
+      "password": "pass123",
+      "borrowedBooks": [],
+      "isAdmin": false
+    },
+    {
+      "id": 5
+    }
+  ]
+}

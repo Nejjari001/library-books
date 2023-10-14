@@ -1,9 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Users from "./pages/admin/Users";
 
 class App extends Component {
   render() {
     return (
-      <div>home</div>
+      <div>
+        <Users />
+      </div>
     );
   }
 }
