@@ -73,9 +73,6 @@
       "password": "pass123",
       "borrowedBooks": [],
       "isAdmin": false
-    },
-    {
-      "id": 5
     }
   ]
 }
